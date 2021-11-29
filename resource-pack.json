@@ -1,5 +1,32 @@
 {
   "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "A17064A8-E787-4284-940B-9BE10B1347C7"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "A17064A8-E787-4284-940B-9BE10B1347C7"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "CDD12CC1-ED6D-4C33-8F41-59BEDBE4D4B6"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "CDD12CC1-ED6D-4C33-8F41-59BEDBE4D4B6"
+          }
+        }
+      }
+    ]
+  },
   "cameras": {
     "@class": "StdResourceMapCamera",
     "map": [
@@ -57,12 +84,89 @@
     "map": [
       {
         "key": {
+          "uuid": "1D0DD583-E1B3-4E01-9C64-4298BB3451DD"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "1D0DD583-E1B3-4E01-9C64-4298BB3451DD"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "2B6FE4CC-FC7D-4C96-97B5-7B066E915CBB"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "2B6FE4CC-FC7D-4C96-97B5-7B066E915CBB"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
         },
         "value": {
           "@class": "Material",
           "id": {
             "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "6734FF93-F92A-45BA-8745-58A8674F5A96"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "6734FF93-F92A-45BA-8745-58A8674F5A96"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "AEEC4E79-0F8B-4CB5-8AFD-82AE5AF102CD"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "AEEC4E79-0F8B-4CB5-8AFD-82AE5AF102CD"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "CE3ECF2A-0A82-4A6E-A1C6-325764A9C34B"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "CE3ECF2A-0A82-4A6E-A1C6-325764A9C34B"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "DB93676E-D6B3-498C-BA4E-7B4784E030FC"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "DB93676E-D6B3-498C-BA4E-7B4784E030FC"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "E4625365-8AEE-476F-A598-4C8D1AD87524"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "E4625365-8AEE-476F-A598-4C8D1AD87524"
           }
         }
       }
@@ -79,6 +183,28 @@
           "@class": "Mesh",
           "id": {
             "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "78E59F20-A71B-4EF7-9F22-5FDEC97FB893"
+        },
+        "value": {
+          "@class": "BoxMesh",
+          "id": {
+            "uuid": "78E59F20-A71B-4EF7-9F22-5FDEC97FB893"
           }
         }
       }
@@ -115,14 +241,6 @@
         }
       }
     ]
-  },
-  "skinControllers": {
-    "@class": "StdResourceMapSkinController",
-    "map": []
-  },
-  "soundSamples": {
-    "@class": "StdResourceMapSoundSample",
-    "map": []
   },
   "textures2d": {
     "@class": "StdResourceMapTexture2D",

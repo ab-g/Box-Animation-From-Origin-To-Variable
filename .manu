@@ -1,4 +1,6 @@
 {
+    "AFF92D00-971D-41F0-AB5E-ED496E96800E/SelectedTimelineObject": "0 0 ",
+    "AFF92D00-971D-41F0-AB5E-ED496E96800E/UnfoldedTimelineNodes/4043B7D3-6D1B-487B-9331-E79C1E2A5858": "Moving Box",
     "Camera/Position/X": 4.319224834442139,
     "Camera/Position/Y": 2.9931468963623047,
     "Camera/Position/Z": 5.981563091278076,
@@ -14,5 +16,5 @@
     "SnapTypeRotation/SnapPreset1": 45,
     "SnapTypeRotation/SnapPreset2": 90,
     "SnapTypeRotation/SnapPresetSelected": 0,
-    "export/projectName": "New-Project-without-Character"
+    "export/projectName": "Box-Animation-From-Origin-To-Variable"
 }

@@ -1,0 +1,98 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "AFF92D00-971D-41F0-AB5E-ED496E96800E"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "4043B7D3-6D1B-487B-9331-E79C1E2A5858"
+        },
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "4AC4F044-45F8-4107-B35F-26DC1C15CFA8"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 9,
+            "name": "Moving Box"
+          }
+        },
+        "animation": {
+          "uuid": "A17064A8-E787-4284-940B-9BE10B1347C7"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      },
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "E7F822B4-9F97-40E5-86E0-9D11A19107C2"
+        },
+        "name": "FinalDestination",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "92866C97-FB7D-4CB5-816F-70477EF54B09"
+          }
+        },
+        "animation": {
+          "uuid": "CDD12CC1-ED6D-4C33-8F41-59BEDBE4D4B6"
+        },
+        "AnimationType": "avar",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "05083EB8-2F7C-47F1-B149-81224C6734D7"
+      },
+      "ownerScriptId": {
+        "uuid": "AFF92D00-971D-41F0-AB5E-ED496E96800E"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 80,
+      "state": 2
+    }
+  ],
+  "symbolTable": {
+    "@class": "VariousSymbolTable",
+    "id": {
+      "uuid": "75EB2FE6-1FC7-4C70-86B6-976BEE27FA66"
+    },
+    "variables": [
+      {
+        "@class": "VariantVariable",
+        "id": {
+          "uuid": "92866C97-FB7D-4CB5-816F-70477EF54B09"
+        },
+        "name": "FinalDestination",
+        "type": "float",
+        "value": 5
+      }
+    ]
+  }
+}

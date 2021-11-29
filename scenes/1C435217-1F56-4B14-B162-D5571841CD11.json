@@ -48,7 +48,14 @@
       "children": [
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
-        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+        "0BE92C1D-8186-4986-8013-5C09134A7285",
+        "50E0A86B-02E1-4B05-A191-8C163C0DB2BA",
+        "2D5802B7-2C7C-4059-A9C8-6868002F73D6",
+        "C04A26F5-E08B-40CD-954E-439E808E5967",
+        "0097B2A2-5947-4558-B403-8482FAC940C2",
+        "CD49D292-7643-4894-9303-9FE620641FE4",
+        "4AC4F044-45F8-4107-B35F-26DC1C15CFA8"
       ]
     },
     {
@@ -224,6 +231,455 @@
       },
       "is_asset_root": true,
       "asset_name": "Floor_200x200"
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "0BE92C1D-8186-4986-8013-5C09134A7285"
+        },
+        "name": "Box at 0",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "AEEC4E79-0F8B-4CB5-8AFD-82AE5AF102CD"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "50E0A86B-02E1-4B05-A191-8C163C0DB2BA"
+        },
+        "name": "Box at 1",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "1D0DD583-E1B3-4E01-9C64-4298BB3451DD"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "2D5802B7-2C7C-4059-A9C8-6868002F73D6"
+        },
+        "name": "Box at 2",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "E4625365-8AEE-476F-A598-4C8D1AD87524"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "C04A26F5-E08B-40CD-954E-439E808E5967"
+        },
+        "name": "Box at 3",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "DB93676E-D6B3-498C-BA4E-7B4784E030FC"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "0097B2A2-5947-4558-B403-8482FAC940C2"
+        },
+        "name": "Box at 4",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "CE3ECF2A-0A82-4A6E-A1C6-325764A9C34B"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "CD49D292-7643-4894-9303-9FE620641FE4"
+        },
+        "name": "Box at 5",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "73986496-D0A3-4D2D-89F7-75E953B9D000"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "2B6FE4CC-FC7D-4C96-97B5-7B066E915CBB"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              5,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "4AC4F044-45F8-4107-B35F-26DC1C15CFA8"
+        },
+        "name": "Moving Box",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "78E59F20-A71B-4EF7-9F22-5FDEC97FB893"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "6734FF93-F92A-45BA-8745-58A8674F5A96"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1.5,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      },
+      "children": [
+        "92852947-71DD-4F56-8FAC-BE7C21B35E29"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "92852947-71DD-4F56-8FAC-BE7C21B35E29"
+        },
+        "name": "Move Box - P",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "AFF92D00-971D-41F0-AB5E-ED496E96800E"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
     }
   ],
   "scriptSystem": {
@@ -257,6 +713,12 @@
         "@class": "Script_PostFX",
         "id": {
           "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "AFF92D00-971D-41F0-AB5E-ED496E96800E"
         }
       }
     ]
